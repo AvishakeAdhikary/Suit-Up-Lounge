@@ -33,6 +33,7 @@ const lobster = localFont({
 export const metadata: Metadata = {
   title: "Suit-Up Lounge",
   description: "Official Suit-Up Lounge Discord Server.",
+  metadataBase: new URL("https://avishakeadhikary.github.io/Suit-Up-Lounge/"),
   openGraph: {
     images: ["opengraph-image.gif"]
   }
