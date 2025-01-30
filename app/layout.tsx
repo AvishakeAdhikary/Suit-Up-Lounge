@@ -33,6 +33,9 @@ const lobster = localFont({
 export const metadata: Metadata = {
   title: "Suit-Up Lounge",
   description: "Official Suit-Up Lounge Discord Server.",
+  openGraph: {
+    images: ["opengraph-image.gif"]
+  }
 };
 
 export default function RootLayout({
